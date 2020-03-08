@@ -1,15 +1,18 @@
 <template>
   <div id="app">
+    <!-- <a-button>按钮</a-button>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <router-link to="/user">user</router-link> |
+      <router-link to="/dashboard/analysis">dashboard</router-link> |
+      <router-link to="/form/basic-form">form</router-link> |
+      <router-link to="/404sdf">404</router-link>
+    </div> -->
     <router-view />
   </div>
 </template>
 
 <style lang="less">
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,5 +31,5 @@
       color: #42b983;
     }
   }
-}
+} */
 </style>
